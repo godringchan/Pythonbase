@@ -6,7 +6,7 @@ def face_detect_demo(flame):
     gray = cv.cvtColor(flame, cv.COLOR_BGR2GRAY)
     # 加载脸部识别数据
     face_detect = cv.CascadeClassifier(
-        r"/home/godring_chan/opencv/opencv-4.1.2/data/haarcascades/haarcascade_frontalface_default.xml"
+        r"/home/godringchan/Software/opencv/opencv-4.2.0/data/haarcascades/haarcascade_frontalface_default.xml"
     )
     # 使用识别数据识别图像
     faces = face_detect.detectMultiScale(gray)

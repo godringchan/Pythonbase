@@ -39,9 +39,7 @@
     //     "D:\\PYTHON3\\lib\\site-packages"],
     // "window.zoomLevel": 1,
     // 编辑器的字体设置
-    "editor.fontLigatures": true,
     // "editor.fontFamily": "Fira Code Light, monospace, Courier New",
-    "editor.fontFamily": "'Fira Code Medium'",
     "editor.fontSize": 17,
     "editor.fontWeight": "500", //字体粗细
     //  终端的字体设置
@@ -72,30 +70,52 @@
         // "editorGutter.commentRangeForeground": "#d0ce89",
         // "editorOverviewRuler.selectionHighlightForeground": "#ff0000"
     },
-    // "workbench.colorCustomizations": {
-    //     "sideBar.background": "#000000",
-    //     "activityBar.background": "#000000",
-    //     "editor.background": "#000000",
-    //     "editor.selectionForeground": "#00AC00",
-    //     "editor.foreground": "#cc00ff",
-    //     "editorLineNumber.activeForeground": "#ff0000",
-    //     "editorLineNumber.foreground": "#ffffff",
-    //     "descriptionForeground": "#5eff00",
-    //     "editor.selectionHighlightBackground": "#b8b8b833",
-    //     "terminal.background": "#000000",
-    //     "terminal.foreground": "#47d4df",
-    //     "textCodeBlock.background": "#ff0000",
-    //     "editorCodeLens.foreground": "#eeff00",
-    //     "editorUnnecessaryCode.border": "#ff0000",
-    //     "editorUnnecessaryCode.opacity": "#10ee53dc",
-    //     "editorGutter.commentRangeForeground": "#d0ce89",
-    //     "editorOverviewRuler.selectionHighlightForeground": "#ff0000"
-    // },
+    "editor.fontFamily": "Operator Mono",
+    "editor.fontLigatures": true, // 这个控制是否启用字体连字，true启用，false不启用，这里选择启用
+    // "editor.tokenColorCustomizations": {
+    //     "textMateRules": [
+    //         {
+    //             "name": "italic font",
+    //             "scope": [
+    //                 "comment",
+    //                 "keyword",
+    //                 "storage",
+    //                 "keyword.control.import",
+    //                 "keyword.control.default",
+    //                 "keyword.control.from",
+    //                 "keyword.operator.new",
+    //                 "keyword.control.export",
+    //                 "keyword.control.flow",
+    //                 "storage.type.class",
+    //                 "storage.type.function",
+    //                 "storage.type",
+    //                 "storage.type.class",
+    //                 "variable.language",
+    //                 "variable.language.super",
+    //                 "variable.language.this",
+    //                 "meta.class",
+    //                 "meta.var.expr",
+    //                 "constant.language.null",
+    //                 "support.type.primitive",
+    //                 "entity.name.method.js",
+    //                 "entity.other.attribute-name",
+    //                 "punctuation.definition.comment",
+    //                 "text.html.basic entity.other.attribute-name.html",
+    //                 "text.html.basic entity.other.attribute-name",
+    //                 "tag.decorator.js entity.name.tag.js",
+    //                 "tag.decorator.js punctuation.definition.tag.js",
+    //                 "source.js constant.other.object.key.js string.unquoted.label.js",
+    //             ],
+    //             "settings": {
+    //                 "fontStyle": "italic",
+    //             }
+    //         },
+    //     ],
     // 自动保存设置
-    // "files.autoSaveDelay": 1000,
-    // "files.autoSave": "onFocusChange",
-    // "workbench.colorTheme": "Sublime Monokai",
-    // "vsintellicode.python.completionsEnabled":true,
+    "files.autoSaveDelay": 1000,
+    "files.autoSave": "onFocusChange",
+    "workbench.colorTheme": "Nebula",
+    "vsintellicode.python.completionsEnabled":true,
     "files.encoding": "utf8",
     "python.jediEnabled": false,
     "editor.multiCursorModifier": "ctrlCmd",
@@ -106,20 +126,20 @@
         "-p",
         "*test.py"
     ],
-    "rainbowString": {
-        "extensions": [
-            ".cs",
-            ".csx",
-            ".fs",
-            ".fsx",
-            ".js",
-            ".jsx",
-            ".ts",
-            ".tsx",
-            ".csproj",
-            ".fsproj"
-        ]
-    },
+    // "rainbowString": {
+    //     "extensions": [
+    //         ".cs",
+    //         ".csx",
+    //         ".fs",
+    //         ".fsx",
+    //         ".js",
+    //         ".jsx",
+    //         ".ts",
+    //         ".tsx",
+    //         ".csproj",
+    //         ".fsproj"
+    //     ]
+    // },
     "python.testing.pytestEnabled": false,
     "python.testing.nosetestsEnabled": false,
     "python.testing.unittestEnabled": false,
